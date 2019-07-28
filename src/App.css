@@ -2,7 +2,7 @@
     padding: 10px;
     background: deeppink;
     border: 3px solid black;
-    width: 175px;
+    width: 200px;
     color: white;
 }
 
@@ -12,4 +12,17 @@ button{
     padding: 15px;
     width:30px;
     height: 30px;
+}
+.operator-button{
+    background: green;
+    width:40px;
+}
+.number-button{
+    background: lightcoral;
+    width:40px;
+}
+
+.special-button{
+    background: orange;
+    width:40px;
 }
