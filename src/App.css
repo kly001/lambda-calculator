@@ -1,28 +1,26 @@
 * {
     padding: 10px;
-    background: deeppink;
-    border: 3px solid black;
+    background: rgb(121, 12, 12);
+    border: 1px solid black;
     width: 200px;
-    color: white;
 }
 
 button{
-    background: dodgerblue;
     border-radius: 50%;
     padding: 15px;
     width:30px;
     height: 30px;
 }
 .operator-button{
-    background: green;
+    background: rgba(20, 92, 207, 0.781);
     width:40px;
 }
 .number-button{
-    background: lightcoral;
+    background: rgba(20, 139, 207, 0.945);
     width:40px;
 }
 
 .special-button{
-    background: orange;
+    background:rgb(3, 65, 80);
     width:40px;
 }
