@@ -1,7 +1,15 @@
 * {
-    margin-top: 20px;
-    background: black;
-    width: 75px;
+    padding: 10px;
+    background: deeppink;
+    border: 3px solid black;
+    width: 175px;
     color: white;
+}
 
+button{
+    background: dodgerblue;
+    border-radius: 50%;
+    padding: 15px;
+    width:30px;
+    height: 30px;
 }
