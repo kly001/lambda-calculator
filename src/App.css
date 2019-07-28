@@ -1,18 +1,22 @@
-* {
+.container {
     padding: 10px;
-    background: rgb(121, 12, 12);
-    border: 1px solid black;
-    width: 200px;
+    background: rgba(179, 32, 63, 0.829);
+    width: 250px;
 }
 
 button{
+    color: white;
     border-radius: 50%;
     padding: 15px;
     width:30px;
     height: 30px;
+    border: 1px solid black;
+}
+.button-section{
+    display: flex;
 }
 .operator-button{
-    background: rgba(20, 92, 207, 0.781);
+    background: turquoise;
     width:40px;
 }
 .number-button{
@@ -21,6 +25,6 @@ button{
 }
 
 .special-button{
-    background:rgb(3, 65, 80);
+    background:rgba(13, 125, 200, 0.465);
     width:40px;
 }
