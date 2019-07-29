@@ -1,7 +1,13 @@
 .container {
-    padding: 10px;
+    border:2px solid black;
+    margin-left: 250px;
+    padding: 25px;
     background: rgba(179, 32, 63, 0.829);
     width: 250px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 button{
@@ -10,21 +16,30 @@ button{
     padding: 15px;
     width:30px;
     height: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
     border: 1px solid black;
 }
 .button-section{
     display: flex;
+    width: 100%;
 }
 .operator-button{
     background: turquoise;
-    width:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .number-button{
     background: rgba(20, 139, 207, 0.945);
-    width:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .special-button{
     background:rgba(13, 125, 200, 0.465);
-    width:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
