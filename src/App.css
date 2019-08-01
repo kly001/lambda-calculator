@@ -2,21 +2,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border:2px solid black;
+    border:1px solid gray;
     border-radius: 3%;
-    margin-left: 250px;
+    margin-left: 200px;
     padding: 25px;
-    background: rgba(179, 32, 63, 0.829);
-    width: 250px;
-    height: 400px;
+    background:#BB1133;
+    width: 300px;
+    height: 425px;
 }
 
 button{
     color: white;
+    font-size: 20px;
     border-radius: 50%;
     padding: 15px;
-    width:30px;
-    height: 30px;
+    width:50px;
+    height: 50px;
     margin-bottom: 10px;
     margin-left: 15px;
     border: 1px solid black;
@@ -34,7 +35,7 @@ button{
     justify-content: space-between;
 }
 .opBtn{
-    background: turquoise;
+    background:#3CB5E5;
 }
 .number-button{
     border: 2px dotted black;
@@ -44,7 +45,7 @@ button{
     justify-content: space-between;
 }
 .numBtn{
-    background: rgba(20, 139, 207, 0.945); 
+    background: #0F3B78; 
 }
 
 .special-button{
@@ -55,18 +56,18 @@ button{
     justify-content: space-between;
 }
 .specBtn{
-    background:rgba(13, 125, 200, 0.465);
+    background:#1F60B0;
 }
 .logo-container{
     /* border: 3px dotted yellow; */
-    margin-left: 45px;
+    margin-left: 10px;
 }
 .display {
     width: 250px;
     height: 50px;
-    background: black;
+    background: #2D2728;
     color: white;
     margin-left:10px;
     font-size: 20px;
-    border-radius: 10%;
+    border-radius: 20%;
 }
