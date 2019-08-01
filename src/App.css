@@ -1,17 +1,20 @@
 .container {
+    border: 3px solid navy;
     display: flex;
+    align-items:flex-start;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    border:1px solid gray;
+    /* border:1px solid gray; */
     border-radius: 3%;
     margin-left: 200px;
-    padding: 25px;
+    padding: 5px;
     background:#BB1133;
-    width: 300px;
-    height: 425px;
+    width: 350px;
+    height: 500px;
 }
 
 button{
+    display: flex;
     color: white;
     font-size: 20px;
     border-radius: 50%;
@@ -19,29 +22,36 @@ button{
     width:50px;
     height: 50px;
     margin-bottom: 10px;
-    margin-left: 15px;
-    border: 1px solid black;
+    margin-left: 1px;
+    /* border: 1px solid black; */
+    border: 5px solid pink;
 }
-.button-section{
-    /* border: 4px dashed blue; */
+.button-section-rows{
+    border: 4px solid blue;
     display: flex;
+    flex-direction: row;
     width: 250px;
-    height: 400px;
+    height: 300px;
+}
+
+.button-section-column{
+    border: 4px solid lightblue;
+    flex-direction: column;
+    width: 250px;
 }
 .operator-button{
-    border: 2px solid black;
-    /* background: green; */
-    flex-wrap: wrap;
+    border: 6px solid brown;
+    background: purple;
+    width: 60px;
     justify-content: space-between;
 }
 .opBtn{
     background:#3CB5E5;
 }
 .number-button{
-    border: 2px dotted black;
-    /* background:yellow; */
-    display: flex;
-    flex-wrap: wrap;
+    border: 5px solid green;
+    background:yellow;
+    width: 60px;
     justify-content: space-between;
 }
 .numBtn{
@@ -49,25 +59,26 @@ button{
 }
 
 .special-button{
-    border: 2px dashed black;
-    /* background:peach; */
-    display: flex;
-    flex-wrap: wrap;
+    border: 4px solid deeppink;
+    background:gray;
+    width: 60px;
     justify-content: space-between;
 }
 .specBtn{
     background:#1F60B0;
 }
-.logo-container{
-    /* border: 3px dotted yellow; */
+.logo{
+    border: 3px solid yellow;
     margin-left: 10px;
 }
 .display {
-    width: 250px;
-    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    padding: 15px;
     background: #2D2728;
     color: white;
-    margin-left:10px;
-    font-size: 20px;
-    border-radius: 20%;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 4px solid dodgerblue;
 }

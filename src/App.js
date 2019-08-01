@@ -24,6 +24,7 @@ function App() {
 const [displayValue, setDisplayValue] = useState("0");
 
 // Same as displayValue:"0", this.setState({xx})===setDisplayValue(xx)
+
 // First, we need a way to update the display.
 const updateValue = x => setDisplayValue(displayValue+x)
 //Second, we need a way to reset the display.
@@ -33,15 +34,21 @@ const resetValue = () =>setDisplayValue("0")
 
 
   return (
-    <div className="container">
+    <div className="App">
+        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+        
+        <div className="container">
+          <div className = "display-components">
             <Logo />
             <Display displayValue = {displayValue}/>
-      <div className="App">
-        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-         <div className="button-section">
-            <Numbers />
-            <Operators />
-            <Specials/>
+          </div>
+         <div className="button-section-column">
+         <Operators displayValue = {displayValue} setDisplayValue = {setDisplayValue}/>
+           
+          </div>
+          <div className="button-section-rows">
+            <Numbers displayValue = {displayValue} setDisplayValue = {setDisplayValue}/>
+            <Specials displayValue = {displayValue} setDisplayValue = {setDisplayValue}/>
         </div>
       </div>
     </div>
